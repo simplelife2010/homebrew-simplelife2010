@@ -6,6 +6,7 @@ cask "vimac" do
   appcast "https://install.appcenter.ms/users/dexterleng/apps/vimac/distribution_groups/sparkle"
   name "vimac"
   homepage "https://github.com/dexterleng/vimac"
- 
+
+
   app "Vimac.app"
 end

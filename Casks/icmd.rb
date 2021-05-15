@@ -3,7 +3,8 @@ cask "icmd" do
   version "1.8.8"
   sha256 :no_check
 
-  url "https://storage.googleapis.com/icmd.app/releases/latest.zip"
+  url "https://storage.googleapis.com/icmd.app/releases/latest.zip",
+      verified: "storage.googleapis.com/icmd.app"
   name "icmd"
   homepage "https://www.icmd.app/"
 

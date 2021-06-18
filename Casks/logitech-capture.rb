@@ -9,7 +9,7 @@ cask "logitech-capture" do
   homepage "https://www.logitech.com/en-us/product/capture"
 
   installer script: {
-    executable: "Logi Capture Installer.app/Contents/MacOS/LogiMgr Installer",
+    executable: "Logi Capture Installer 2.06.34.app/Contents/MacOS/LogiMgr Installer",
     sudo:       true,
   }
 

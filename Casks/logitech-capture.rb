@@ -7,6 +7,4 @@ cask "logitech-capture" do
   name "Logitech Capture"
   desc "Video Recording & Streaming Software"
   homepage "https://www.logitech.com/en-us/product/capture"
-
-  app "Logi Capture.app"
 end

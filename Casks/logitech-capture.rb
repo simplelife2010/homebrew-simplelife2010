@@ -12,9 +12,4 @@ cask "logitech-capture" do
     executable: "Logi Capture Installer 2.02.253.app/Contents/MacOS/LogiMgr Installer",
     sudo:       true,
   }
-
-  uninstall script: {
-    executable: "open /Applications/Utilities/LogiCapture Uninstaller.app",
-    sudo:       true,
-  }
 end

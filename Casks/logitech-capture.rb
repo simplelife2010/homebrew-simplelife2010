@@ -8,7 +8,10 @@ cask "logitech-capture" do
   desc "Video Recording & Streaming Software"
   homepage "https://www.logitech.com/en-us/product/capture"
 
-  installer manual: "Logi Capture Installer 2.06.34.app"
+  installer script: {
+    executable: "Logi Capture Installer.app/Contents/MacOS/LogiMgr Installer",
+    sudo:       true,
+  }
 
   uninstall delete: "/Applications/Logi Capture.app"
 end

@@ -7,4 +7,8 @@ cask "logitech-capture" do
   name "Logitech Capture"
   desc "Video Recording & Streaming Software"
   homepage "https://www.logitech.com/en-us/product/capture"
+
+  installer manual: "Logi Capture Installer 2.06.34.app"
+
+  uninstall delete: "/Applications/Logi Capture.app"
 end

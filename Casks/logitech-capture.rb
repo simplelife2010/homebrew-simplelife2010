@@ -14,7 +14,7 @@ cask "logitech-capture" do
   }
 
   uninstall script: {
-    executable: "/Applications/Utilities/LogiCapture Uninstaller.app/Contents/Macos/LogiCapture Uninstaller",
+    executable: "open /Applications/Utilities/LogiCapture Uninstaller.app",
     sudo:       true,
   }
 end

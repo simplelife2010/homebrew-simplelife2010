@@ -13,5 +13,8 @@ cask "logitech-capture" do
     sudo:       true,
   }
 
-  uninstall delete: "/Applications/Logi Capture.app"
+  uninstall script: {
+    executable: "/Applications/Utilities/LogiCapture Uninstaller.app",
+    sudo:       true,
+  }
 end
